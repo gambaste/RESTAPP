@@ -1,4 +1,4 @@
-package it.stefanogamba.rename.rs;
+package it.gambastefano.template.rs;
 
 import jakarta.ws.rs.core.MediaType;
 import jakarta.ws.rs.core.Response;

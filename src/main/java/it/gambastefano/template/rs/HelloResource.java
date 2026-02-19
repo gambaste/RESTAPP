@@ -1,4 +1,4 @@
-package it.stefanogamba.rename.rs;
+package it.gambastefano.template.rs;
 
 import jakarta.ws.rs.GET;
 import jakarta.ws.rs.Path;

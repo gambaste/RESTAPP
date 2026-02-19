@@ -1,4 +1,4 @@
-package it.stefanogamba.rename.rs;
+package it.gambastefano.template.rs;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.SerializationFeature;
