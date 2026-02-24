@@ -25,8 +25,10 @@ public class OggettoResource {
     @GET
     @Path("/{id}")
     public Response getOggetto(@PathParam("id") Integer id) {
+        System.out.println("Richiesto oggetto con id: " + id);
         OggettoResponseDto oggetto = OggettoManager.getOggetto(id);
         if (oggetto == null) {
+            System.out.println("Oggetto con id " + id + " non trovato");
             return ResponseUtil.notFound("Il oggetto non esiste");
         }
 

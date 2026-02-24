@@ -13,6 +13,7 @@ public class RestApplication extends Application {
     public Set<Class<?>> getClasses() {
         HashSet<Class<?>> set = new HashSet<>();
         set.add(HelloResource.class);
+        set.add(OggettoResource.class);
         set.add(JacksonConfiguration.class);
         return set;
     }

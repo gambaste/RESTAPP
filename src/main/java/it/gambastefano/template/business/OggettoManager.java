@@ -13,6 +13,7 @@ import java.util.Set;
 public class OggettoManager {
 
     public static OggettoResponseDto getOggetto(Integer id) {
+        System.out.println("OggettoManager -> getOggetto");
         OggettoResponseDto res = null;
 
         OggettoDao dao = new OggettoDao();
